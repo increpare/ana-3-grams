@@ -18,13 +18,13 @@ func filterLen(s []string, l int) []string {
 
 func main() {
 	fmt.Println("loading")
-	buf, _ := ioutil.ReadFile("100kwords.txt")
+	buf, _ := ioutil.ReadFile("words.txt")
 	dat := string(buf)
 	wordList := strings.Split(dat, "\n")
 
-	var a = 3
-	var b = 3
-	var c = 3
+	var a = 4
+	var b = 4
+	var c = 4
 
 	fmt.Println("processing")
 
